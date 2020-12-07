@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: d9a3b2b5ddeff47bd8e7eb2b34206e52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7555616891998147036
+    second: kid_run_0
+  - first:
+      213: -3187189260337610399
+    second: kid_run_1
+  - first:
+      213: 7412165844919659308
+    second: kid_run_2
+  - first:
+      213: 7833532417644043613
+    second: kid_run_3
+  - first:
+      213: -5887662047095951859
+    second: kid_run_4
+  - first:
+      213: 7280325659970907668
+    second: kid_run_5
+  - first:
+      213: 1991260833441121307
+    second: kid_run_6
+  - first:
+      213: 7564949560013540782
+    second: kid_run_7
+  - first:
+      213: 74374749463423892
+    second: kid_run_8
+  - first:
+      213: -3337699454185982185
+    second: kid_run_9
+  - first:
+      213: 8635805781267324462
+    second: kid_run_0
+  - first:
+      213: -7746736624575917829
+    second: kid_run_1
+  - first:
+      213: -7443856696390553721
+    second: kid_run_2
+  - first:
+      213: -6873812999570715993
+    second: kid_run_3
+  - first:
+      213: 966238212582080442
+    second: kid_run_4
+  - first:
+      213: -8747409479813290116
+    second: kid_run_5
+  - first:
+      213: 3603528438857206350
+    second: kid_run_6
+  - first:
+      213: 4218598841680958980
+    second: kid_run_7
+  - first:
+      213: -9125349550804660690
+    second: kid_run_8
+  - first:
+      213: 6485695822154362192
+    second: kid_run_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kid_run_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 600
+        width: 218
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e14b58a9b88d770800000000000000
+      internalID: 8635805781267324462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 584
+        width: 219
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0d4ab75101e7490800000000000000
+      internalID: -7746736624575917829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 594
+        width: 201
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f6abc16cb12b890800000000000000
+      internalID: -7443856696390553721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_3
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 606
+        width: 208
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa0024fe7f4b90a0800000000000000
+      internalID: -6873812999570715993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 611
+        width: 214
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abffc55f884c86d00800000000000000
+      internalID: 966238212582080442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 214
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7728d28c65fa9680800000000000000
+      internalID: -8747409479813290116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 22
+        width: 208
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0a18d50e420230800000000000000
+      internalID: 3603528438857206350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 10
+        width: 201
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4069440ab497b8a30800000000000000
+      internalID: 4218598841680958980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_8
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 0
+        width: 219
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e84058eee3c5180800000000000000
+      internalID: -9125349550804660690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_run_9
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 17
+        width: 218
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05deeb0dcf1d10a50800000000000000
+      internalID: 6485695822154362192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
