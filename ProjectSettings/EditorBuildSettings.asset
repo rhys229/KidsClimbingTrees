@@ -5,28 +5,40 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/MainLobby.unity
-    guid: d119f93ff13f2534db4b26c352fc6367
+    path: Assets/Scenes/LobbyScene.unity
+    guid: c8a9d1312a49dc8488a9b32d83d659c7
   - enabled: 1
-    path: Assets/Scenes/Launcher.unity
-    guid: 6c9c2aa7855f1c545ab659c0572b8d3d
+    path: Assets/Scenes/KidsWaitingRoom.unity
+    guid: bb31e5aa95c9d1b4e9ba6e269549ccb0
   - enabled: 1
     path: Assets/Scenes/level1-1.unity
     guid: 08b7ed893720a8b4bb6cba8d147bc9e3
   - enabled: 1
+    path: Assets/Scenes/level1-1Between.unity
+    guid: 13109ac0fb6446a46b0761d3cb712e6a
+  - enabled: 1
     path: Assets/Scenes/level2-1.unity
     guid: e21e6b5b3deae3d4f9846b3134f3463d
+  - enabled: 1
+    path: Assets/Scenes/level2-1Between.unity
+    guid: 82934be0fd7aa68459f4c0f68b9a33e8
   - enabled: 1
     path: Assets/Scenes/level3-1.unity
     guid: 998832a5b69c3ef4d94ff9b85c9a10a8
   - enabled: 1
+    path: Assets/Scenes/level3-1Between.unity
+    guid: dfac6e23b429b964180591143b9e242b
+  - enabled: 1
     path: Assets/Scenes/level4-1.unity
     guid: 68bfd17ca9811cc4f9949724a8d17052
   - enabled: 1
+    path: Assets/Scenes/level4-1Between.unity
+    guid: b1daee3b412a3c74987ed81930b42470
+  - enabled: 1
     path: Assets/Scenes/level5-1.unity
     guid: 277e8f393866f33459c0a1a031098e62
+  - enabled: 1
+    path: Assets/Scenes/VictoryScreen.unity
+    guid: 1253bcaaac6a13644858a9b8964e94ba
   m_configObjects: {}

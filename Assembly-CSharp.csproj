@@ -52,29 +52,36 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlatformController.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\PlayerAnimatorManager.cs" />
+     <Compile Include="Assets\Scripts\DroppingManagerScript.cs" />
      <Compile Include="Assets\Scripts\kid_movement.cs" />
      <Compile Include="Assets\Scripts\RopeScript.cs" />
      <Compile Include="Assets\Scripts\Script Script.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\fixSize.cs" />
      <Compile Include="Assets\Scripts\PlayerNameInputField.cs" />
      <Compile Include="Assets\Scripts\KidNetworkingManager.cs" />
+     <Compile Include="Assets\Scripts\KidSpawnerDebug.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\Launcher.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\PlayerUI.cs" />
      <Compile Include="Assets\Scripts\LobbyManager.cs" />
+     <Compile Include="Assets\Scripts\VictoryScreen.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\CameraWork.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\LoaderAnime.cs" />
      <Compile Include="Assets\Scripts\Controller2D.cs" />
+     <Compile Include="Assets\ModifiedPunTutorial\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\RaycastController.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\PlayerNameInputField.cs" />
+     <Compile Include="Assets\Scripts\CheckpointScript.cs" />
      <Compile Include="Assets\ModifiedPunTutorial\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SpaceshipDumb.cs" />
+     <Compile Include="Assets\Scripts\DropperScript.cs" />
      <Compile Include="Assets\Scripts\Launcher.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
-     <None Include="Assets\2D ForestArt\2D ForestArt\ReedMe.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -97,6 +104,7 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\array-names.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Kyle/UnityProjects/Kids Climbing Trees/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -724,6 +732,10 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
       <Project>{b69027c0-7fdf-4b22-ace3-aafe49202c4b}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{9e33e8ec-9e4a-ae0a-4475-aebd822f1b34}</Project>

@@ -6,16 +6,14 @@
     <e p="C:\Users\Kyle\UnityProjects\Kids Climbing Trees" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="2D ForestArt" t="Include">
-          <e p="2D ForestArt" t="Include">
-            <e p="ReedMe.txt" t="Include" />
-          </e>
-        </e>
+        <e p="array-names.txt" t="Include" />
+        <e p="fixSize.cs" t="Include" />
         <e p="ModifiedPunTutorial" t="Include">
           <e p="Scripts" t="Include">
             <e p="CameraWork.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="Launcher.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
             <e p="LoaderAnime.cs" t="Include" />
             <e p="PlayerAnimatorManager.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
@@ -128,6 +126,30 @@
                 <e p="PhotonTransformViewClassic.cs" t="Include" />
               </e>
             </e>
+            <e p="Demos" t="Include">
+              <e p="DemoAsteroids" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="AsteroidsGame.cs" t="Include" />
+                  <e p="Game" t="Include">
+                    <e p="Asteroid.cs" t="Include" />
+                    <e p="AsteroidsGameManager.cs" t="Include" />
+                    <e p="Bullet.cs" t="Include" />
+                    <e p="KidOverviewPanel.cs" t="Include" />
+                    <e p="KidsGameManager.cs" t="Include" />
+                    <e p="PlayerOverviewPanel.cs" t="Include" />
+                    <e p="Spaceship.cs" t="Include" />
+                  </e>
+                  <e p="Lobby" t="Include">
+                    <e p="LobbyMainPanel.cs" t="Include" />
+                    <e p="LobbyTopPanel.cs" t="Include" />
+                    <e p="PlayerListEntry.cs" t="Include" />
+                    <e p="RoomListEntry.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="PhotonUnityNetworking.Demos.asmdef" t="Include" />
+              <e p="WebRpcImplementationExample.cs" t="Include" />
+            </e>
             <e p="link.xml" t="Include" />
             <e p="readme.txt" t="Include" />
             <e p="UtilityScripts" t="Include">
@@ -191,9 +213,13 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
+          <e p="CheckpointScript.cs" t="Include" />
           <e p="Controller2D.cs" t="Include" />
+          <e p="DropperScript.cs" t="Include" />
+          <e p="DroppingManagerScript.cs" t="Include" />
           <e p="kid_movement.cs" t="Include" />
           <e p="KidNetworkingManager.cs" t="Include" />
+          <e p="KidSpawnerDebug.cs" t="Include" />
           <e p="Launcher.cs" t="Include" />
           <e p="LobbyManager.cs" t="Include" />
           <e p="PlatformController.cs" t="Include" />
@@ -202,6 +228,8 @@
           <e p="RaycastController.cs" t="Include" />
           <e p="RopeScript.cs" t="Include" />
           <e p="Script Script.cs" t="Include" />
+          <e p="SpaceshipDumb.cs" t="Include" />
+          <e p="VictoryScreen.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -241,6 +269,7 @@
       <e p="PhotonChat.csproj" t="IncludeRecursive" />
       <e p="PhotonRealtime.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.csproj" t="IncludeRecursive" />
+      <e p="PhotonUnityNetworking.Demos.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Editor.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Utilities.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Utilities.Culling.Editor.csproj" t="IncludeRecursive" />

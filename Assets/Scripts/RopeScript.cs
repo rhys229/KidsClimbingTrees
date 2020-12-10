@@ -5,14 +5,25 @@ using UnityEngine;
 
 public class RopeScript : MonoBehaviour
 {
-    private GameObject player;
+    public GameObject player;
 
-    private Player playerScript;
+    public Player playerScript;
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        playerScript = player.GetComponent<Player>();
+        //begin Kyle Code
+        Player[] kids = FindObjectsOfType<Player>();
+        foreach (Player kid in kids)
+        {
+            if (kid.photonView.IsMine)
+            {
+                player = kid.gameObject;
+                playerScript = player.GetComponent<Player>();
+                return;
+            }
+        }
+        Debug.LogErrorFormat("RopeScript: Wuh oh, no local player instance to reference. This is bad :(");
+        //end Kyle Code
     }
 
     // Update is called once per frame

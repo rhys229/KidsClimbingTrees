@@ -38,6 +38,10 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - MoveToStartPosition
+  - LoadNextLevel
+  - LoadLevelFromGM
+  - StopMoving
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

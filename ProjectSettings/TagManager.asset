@@ -20,8 +20,9 @@ TagManager:
   - Ropes
   - Climbable
   - Thorns
-  - 
-  - 
+  - Checkpoints
+  - FinishFlag
+  - Checkpoints
   - 
   - 
   - 

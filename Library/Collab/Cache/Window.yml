@@ -14,13 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scripts/CameraFollow.cs
-    - Assets/Scripts/KidNetworkingManager.cs
-    - Assets/Scripts/LobbyManager.cs
+    - Assets/Scenes/level4-1.unity
     - 
-    m_Values: 01000000
-  RevisionSummary: Camera follows the player, but spazzes out for some unknown reason?
+    m_Values: 0101
+  RevisionSummary: Lowered
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0

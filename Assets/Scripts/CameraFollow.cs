@@ -89,7 +89,9 @@ public class CameraFollow : MonoBehaviour {
 			centre = new Vector2((left+right)/2,(top +bottom)/2);
 		}
 
-		public void Update(Bounds targetBounds) {
+		public void Update(Bounds targetBounds)
+		{
+			centre = targetBounds.center;
 			float shiftX = 0;
 			if (targetBounds.min.x < left) {
 				shiftX = targetBounds.min.x - left;
@@ -107,7 +109,7 @@ public class CameraFollow : MonoBehaviour {
 			}
 			top += shiftY;
 			bottom += shiftY;
-			centre = new Vector2((left+right)/2,(top +bottom)/2);
+			//centre = new Vector2((left+right)/2,(top +bottom)/2);
 			velocity = new Vector2 (shiftX, shiftY);
 		}
 	}

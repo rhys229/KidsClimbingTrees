@@ -21,7 +21,6 @@ public class PlatformController : RaycastController {
 	int fromWaypointIndex;
 	float percentBetweenWaypoints;
 	float nextMoveTime;
-
 	List<PassengerMovement> passengerMovement;
 	Dictionary<Transform,Controller2D> passengerDictionary = new Dictionary<Transform, Controller2D>();
 	
@@ -117,7 +116,6 @@ public class PlatformController : RaycastController {
 						movedPassengers.Add(hit.transform);
 						float pushX = (directionY == 1)?velocity.x:0;
 						float pushY = velocity.y - (hit.distance - skinWidth) * directionY;
-
 						passengerMovement.Add(new PassengerMovement(hit.transform,new Vector3(pushX,pushY), directionY == 1, true));
 					}
 					if (crumblingPlatform && !crumbling)
@@ -209,7 +207,18 @@ public class PlatformController : RaycastController {
 	public IEnumerator crumble()
 	{
 		crumbling = true;
-		yield return new WaitForSeconds(4);
+		yield return new WaitForSeconds(3);
+		transform.Rotate(0,0,15);
+		yield return new WaitForSeconds(.2f);
+		transform.Rotate(0,0,-15);
+		yield return new WaitForSeconds(.2f);
+		transform.Rotate(0,0,15);
+		yield return new WaitForSeconds(.2f);
+		transform.Rotate(0,0,-15);
+		yield return new WaitForSeconds(.2f);
+		transform.Rotate(0,0,15);
+		yield return new WaitForSeconds(.2f);
+		transform.Rotate(0,0,-15);
 		gameObject.layer = 31;
 		gameObject.GetComponent<BoxCollider2D>().enabled = false;
 		gameObject.GetComponent<SpriteRenderer>().enabled = false;

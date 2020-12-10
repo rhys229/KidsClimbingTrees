@@ -28,8 +28,6 @@ namespace Photon.Pun.KyleDemo
             {
                 Debug.Log("I am me!");
                 LocalPlayerInstance = this.gameObject;
-                playerID = photonView.Owner.GetPlayerNumber();
-                Debug.Log("And my playerID is " + playerID + "!");
             }
 
             // #Critical
@@ -41,6 +39,9 @@ namespace Photon.Pun.KyleDemo
         {
             nameText = transform.GetComponentInChildren<TextMeshPro>();
             nameText.text = photonView.Owner.NickName;
+            Debug.Log(photonView.Owner);
+            playerID = photonView.ViewID;
+            Debug.Log("And my playerID is " + playerID + "!");
         }
 
         // Update is called once per frame

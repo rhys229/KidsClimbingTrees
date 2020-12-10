@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonChat", "PhotonChat.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking", "PhotonUnityNetworking.csproj", "{ce53a866-901b-652d-f936-3c2278b5993b}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Demos", "PhotonUnityNetworking.Demos.csproj", "{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonRealtime", "PhotonRealtime.csproj", "{5a23f3b2-025e-d43e-246b-7afbe252b2d7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c24773bb-a2bd-f990-26b2-d56489686a6f}"
@@ -37,6 +39,10 @@ Global
 		{ce53a866-901b-652d-f936-3c2278b5993b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ce53a866-901b-652d-f936-3c2278b5993b}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ce53a866-901b-652d-f936-3c2278b5993b}.Release|Any CPU.Build.0 = Release|Any CPU
+		{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{cbf36f3c-b4db-9aaf-271b-4e88d06ce2b5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5a23f3b2-025e-d43e-246b-7afbe252b2d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5a23f3b2-025e-d43e-246b-7afbe252b2d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5a23f3b2-025e-d43e-246b-7afbe252b2d7}.Release|Any CPU.ActiveCfg = Release|Any CPU
